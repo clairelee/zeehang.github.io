@@ -1,0 +1,17 @@
+#center-title{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+#tagline{
+  text-align: center;
+}
+
+#navbar{
+  padding-left: 18em;
+  padding-right: 18em;
+}
+
+.navhighlight:hover{
+  background-color: gray;
+}
