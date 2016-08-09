@@ -13,7 +13,7 @@
 
 .header
 {
-  background-image: url("http://digital-photography-school.com/wp-content/uploads/flickr/5661878892_15fba42846_o.jpg");
+  background-image: url("http://static.vecteezy.com/system/resources/previews/000/101/574/original/free-tropical-island-vector.png");
   height: 80vh;
   width: auto;
   background-position: center;
@@ -31,6 +31,13 @@
 
 }
 
+#register-wrapper{
+  text-align:center;
+  position: relative;
+  top: 15%;
+  transform: translateY(-50%);
+}
+
 .header > h2{
   color:white;
   position: relative;
@@ -43,7 +50,7 @@
 
 .header > button{
   position: relative;
-  top: 15%;
+  top: 25%;
   transform: translateY(-50%);
   align:center;
 
@@ -62,11 +69,11 @@
 }
 
 .navbar.scrolled {
-    background: rgb(68, 68, 68); //IE
-    background: rgba(0, 0, 0, 0.78); //NON-IE
-    -webkit-box-shadow: 0px 3px 0px 1px rgba(150,150,150,1);
--moz-box-shadow: 0px 3px 0px 1px rgba(150,150,150,1);
-box-shadow: 0px 3px 0px 1px rgba(150,150,150,1);
+    background: rgb(8, 193, 255); //IE
+    background: rgba(8, 192, 255, 0.78); //NON-IE
+    -webkit-box-shadow: 0px 3px 0px 1px rgba(204,255,255,1);
+-moz-box-shadow: 0px 3px 0px 1px rgba(204,255,255,1);
+box-shadow: 0px 3px 0px 1px rgba(204,255,255,1);
 
 
 
@@ -90,6 +97,16 @@ box-shadow: 0px 3px 0px 1px rgba(150,150,150,1);
   padding-top: 0px;
   padding-bottom: 0px;
   line-height: 53px;
+}
+
+#header-button{
+  background-color:pink;
+  background-image:none;
+  text-shadow:none;
+  color:white;
+  width:40vw;
+  min-width: 300px;
+  max-width: 400px;
 }
 
 .navbar-default .navbar-nav li a:hover{
