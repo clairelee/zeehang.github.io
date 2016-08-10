@@ -18,8 +18,6 @@
   width: auto;
   background-position: center;
   background-size: cover;
-  margin-bottom:25vw;
-  margin-bottom-min: 200px;
 }
 
 .header > h1{
@@ -112,6 +110,17 @@ box-shadow: 0px 3px 0px 1px rgba(204,255,255,1);
   max-width: 400px;
 }
 
+#intro-button{
+  background-color:pink;
+  background-image:none;
+  text-shadow:none;
+  color:white;
+  width:40vw;
+  min-width: 300px;
+  max-width: 400px;
+  text-align: center;
+}
+
 .navbar-default .navbar-nav li a:hover{
   font-size:22px;
   color:pink;
@@ -130,9 +139,6 @@ box-shadow: 0px 3px 0px 1px rgba(204,255,255,1);
     min-height: 70px;
 }
 
-.navbar-nav > li > a {
-
-}
 
 @media (max-width: 767px) {
     .navbar-nav > li > a {
@@ -145,9 +151,9 @@ box-shadow: 0px 3px 0px 1px rgba(204,255,255,1);
 .video-container {
 
     position: relative;
-    top: 25%;
-    padding-bottom: 56.25%;
+    padding-bottom: 35%;
     padding-top: 30px; height: 0; overflow: hidden;
+
 }
 
 .video-container iframe,
@@ -163,7 +169,24 @@ box-shadow: 0px 3px 0px 1px rgba(204,255,255,1);
     min-height: 200px;
     height: 30vw;
 }
-#intro-text{
+#about{
   padding-left: 10%;
   padding-right: 10%;
+}
+
+#section-header{
+  /*background-color:pink;*/
+  background-image: url('images/Untitled-1.svg');
+  width: 100%;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  margin-top: 10px;
+  margin-bottom:10px;
+  text-align:center;
+
+  /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
