@@ -10,6 +10,14 @@ body{
 
 }
 
+footer{
+  height:200px;
+  width:100%;
+  background-color:pink;
+  padding: 1em;
+  margin-top:2em;
+}
+
 /*.header img{
   height:80%;
   background-position:top-center;
