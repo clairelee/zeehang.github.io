@@ -14,7 +14,7 @@ body{
 footer{
   height:200px;
   width:100%;
-  background-color:pink;
+  background-color:#f08080;
   padding: 1em;
   margin-top:2em;
 }
@@ -80,12 +80,8 @@ footer{
 }
 
 .navbar.scrolled {
-    background: rgb(8, 193, 255); //IE
-    background: rgba(8, 193, 255, 0.78); //NON-IE
-    -webkit-box-shadow: 0px 3px 0px 1px rgba(204,255,255,1);
--moz-box-shadow: 0px 3px 0px 1px rgba(204,255,255,1);
-box-shadow: 0px 3px 0px 1px rgba(204,255,255,1);
-
+    background-color: #82D1D8; //IE
+    background-image: url('images/StripesHeader.png');
 
 
 }
@@ -116,7 +112,7 @@ box-shadow: 0px 3px 0px 1px rgba(204,255,255,1);
 }
 
 .navbar-default .navbar-nav a:hover{
-  background: pink;
+  background: #f08080;
 }
 
 .navbar-default .navbar-brand{
@@ -128,6 +124,7 @@ box-shadow: 0px 3px 0px 1px rgba(204,255,255,1);
   line-height: 70px;
   font-size:34px;
   transition: 0.3s ease;
+  vertical-align: middle;
 }
 
 
@@ -152,7 +149,7 @@ box-shadow: 0px 3px 0px 1px rgba(204,255,255,1);
 }
 
 #intro-button{
-  background-color:pink;
+  background-color:#f08080;
   background-image:none;
   text-shadow:none;
   color:white;
@@ -178,7 +175,7 @@ box-shadow: 0px 3px 0px 1px rgba(204,255,255,1);
 
 .navbar-default .navbar-nav li a:hover{
   font-size:22px;
-  color:pink;
+  color:#f08080;
   font-family:"Oswald", sans-serif;
 
 
@@ -196,7 +193,7 @@ box-shadow: 0px 3px 0px 1px rgba(204,255,255,1);
 .download-card{
   height:175px;
   width: 90%;
-  background-color:rgba(8, 193, 255, 0.78);
+  background-color:#B1D782;
   border-radius:0px;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
   -webkit-transition: all 0.3s ease-out;
@@ -215,7 +212,8 @@ box-shadow: 0px 3px 0px 1px rgba(204,255,255,1);
 }
 
 .navbar-fixed-top {
-    min-height: 70px;
+    min-height: 75px;
+    background-image: url('images/StripesHeader.png');
 }
 
 
@@ -270,7 +268,7 @@ padding-bottom: 10px;}
 }
 
 #section-header{
-  /*background-color:pink;*/
+  /*background-color:#f08080;*/
   width: 100%;
   text-align:center;
   font-family: "Oswald";
@@ -294,7 +292,7 @@ padding-bottom: 10px;}
 }
 .downloads-panel{
   height:50px;
-  background-color:aquamarine;
+  background-color:#82D1D8;
   width:100%;
   max-width: 700px;
   line-height:50px;
@@ -316,7 +314,7 @@ padding-bottom: 10px;}
 
 .downloads-panel:hover{
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
-    background-color:rgba(8, 193, 255, 0.55);
+    background-color:#91E0E2;
 }
 
 .download-body{
@@ -328,11 +326,15 @@ padding-bottom: 10px;}
 }
 
 #applications{
-  background-color: #99cc33;
+  background-color: #b1d782;
 }
 
 .section > #section-header > h2{
   color:white;
+}
+
+.section{
+  padding-bottom: 15px;
 }
 
 
@@ -388,4 +390,31 @@ padding-bottom: 10px;}
   height: 50%;
   display: block;
   margin: 0 auto;
+}
+
+.wrapper {
+  background: #EFEFEF;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px !important;
+  width: 250px;
+  padding-top: 5px;
+}
+
+.scrolls {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 150px;
+  white-space: nowrap
+}
+
+.imageDiv img {
+  margin: 2px;
+  max-height: 50px;
+  cursor: pointer;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: top;
 }

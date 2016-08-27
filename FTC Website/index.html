@@ -20,6 +20,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Pacifico|Karla|Oswald:400,300,700|Merienda+One|PT+Sans:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
         rel="stylesheet">
+        <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -45,7 +46,9 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">FTC</a>
+          <a class="navbar-brand" href="#">
+              <img alt="CKI Wordmark" src="images/CKIWordmark.png">
+          </a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
@@ -53,7 +56,7 @@
              <li><a href="#applications">APPLICATIONS</a></li>
              <li><a href="#faq">FAQ</a></li>
              <li><a href="#schedule">SCHEDULE</a></li>
-            <a href="http://www.google.com" class="btn btn-default navbar-btn" role="button">REGISTER</a>
+            <a href="http://www.google.com" id="navbar" class="btn btn-default navbar-btn" role="button">REGISTER</a>
           </ul>
         </div>
       </div>
@@ -87,6 +90,33 @@
   <p>
     Content here.
   </p>
+  <div id="accordion" class="downloads-section">
+    <div class="downloads-panel">
+      <a href="#SAA-forms" data-parent="#accordion" data-toggle="collapse">SAA FORMS</a>
+          <img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON />
+    </div>
+    <div id="SAA-forms" class="collapse download-body">
+      <p>
+        <strong>What is a Sergeant-At-Arms?</strong>
+    </p>
+    <p>
+      Sergeant-At-Arms (SAAs) are amazing volunteers who are willing to take an active part in helping the district. They make sure that FTC goes on without a hitch by promoting and enforcing safe behavior as listed in the Code of Conduct. Their responsibilities include making rounds around the campground, reporting inappropriate activities, and making sure that each member has a safe experience. Our FTC ohana would be incomplete without these members!
+    </p>
+    <p>
+      <strong>Why should I serve as one?</strong>
+  </p>
+  <p>
+    Serving as an SAA is a unique and rewarding experience. You will be a leader and guide to those around you. You will make new connections with others. FTC would not be possible without your help! You have a direct impact on the experience of every attending member. This is your chance to step up and serve the district while developing your leadership skills. Each SAA will be personally appreciated with a gift!
+
+</p>
+      <a href="forms/FTC2016_SAA_Volunteer_Form.docx" class="btn btn-default" id="download-button" role="button">DOWNLOAD .DOCX</a>
+      <p>
+
+      </p>
+    </div>
+
+
+  </div>
 </div>
 <div id="faq" class="section">
   <div id="section-header">
@@ -94,26 +124,12 @@
   </div>
 <div id="accordion" class="downloads-section">
   <div class="downloads-panel">
-    <a href="#SAA-forms" data-parent="#accordion" data-toggle="collapse">SAA FORMS</a>
-        <img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON />
-  </div>
-  <div id="SAA-forms" class="collapse download-body">
-    <p>
-      Hello test 123.
-    </p>
-    <a href="http://www.google.com" class="btn btn-default" id="download-button" role="button">DOWNLOAD</a>
-    <p>
-
-    </p>
-  </div>
-
-  <div class="downloads-panel">
     <a href="#manual" data-parent="#accordion" data-toggle="collapse">MANUAL</a>
         <img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON />
 
   </div>
   <div id="manual" class="collapse download-body">
-    Hello test 123.
+
   </div>
 </div>
 
@@ -163,56 +179,105 @@
         <!--spacer-->
       </div>
     <div class="col-sm-4">
+      <h2>Application Deadlines</h2>
       <div class="schedule-card">
 
-      <h2>Due Date #1</h2>
+      <h2>September 18th</h2>
       <ul>
         <li>
-          This thing is due.
-        </li>
-        <li>
-          This thing is also due.
-        </li>
-        <li>
-          This thing is also due.
-        </li>
-        <li>
-          This thing is also due.
-        </li>
-      </ul>
-    </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="schedule-card">
-
-      <h2>Due Date #1</h2>
-      <ul>
-        <li>
-          This thing is due.
-        </li>
-        <li>
-          This thing is also due.
+          Workshop applications due
         </li>
       </ul>
     </div>
     <div class="schedule-card">
 
-    <h2>Due Date #1</h2>
+    <h2>September 20th</h2>
     <ul>
       <li>
-        This thing is due.
-      </li>
-      <li>
-        This thing is also due.
-      </li>
-      <li>
-        This thing is also due.
-      </li>
-      <li>
-        This thing is also due.
+        Program ad form due
       </li>
     </ul>
   </div>
+  <div class="schedule-card">
+
+  <h2>September 27th</h2>
+  <ul>
+    <li>
+      DJ applications due
+    </li>
+  </ul>
+</div>
+  <div class="schedule-card">
+
+  <h2>September 30th</h2>
+  <ul>
+    <li>
+      Team captain applications due
+    </li>
+  </ul>
+</div>
+<div class="schedule-card">
+
+<h2>October 15th</h2>
+<ul>
+  <li>
+    Campfire skit application due
+  </li>
+  <li>
+    Talent application due
+  </li>
+</ul>
+</div>
+<div class="schedule-card">
+
+<h2>October 21st</h2>
+<ul>
+  <li>
+    SAA forms due
+  </li>
+</ul>
+</div>
+    </div>
+    <div class="col-sm-4">
+      <h2>Other Important Dates</h2>
+      <div class="schedule-card">
+
+      <h2>October 14th</h2>
+      <ul>
+        <li>
+          Early Registration due
+        </li>
+      </ul>
+    </div>
+    <div class="schedule-card">
+
+    <h2>October 21st</h2>
+    <ul>
+      <li>
+        Regular Registration due
+      </li>
+    </ul>
+  </div>
+  <div class="schedule-card">
+
+  <h2>October 24th</h2>
+  <ul>
+    <li>
+      Opening slideshow submissions due
+    </li>
+  </ul>
+</div>
+<div class="schedule-card">
+
+<h2>November 5th</h2>
+<ul>
+  <li>
+    FTC begins!
+  </li>
+</ul>
+</div>
+    </div>
+
     </div>
     <div class="col-sm-2">
       <!--spacer-->
