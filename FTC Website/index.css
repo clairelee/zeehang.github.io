@@ -313,6 +313,17 @@ padding-bottom: 10px;}
 
 }
 
+.downloads-panel.required{
+  background-color: #f08080;
+}
+
+.downloads-panel a{
+  color:white;
+}
+
+.downloads-panel.required:hover{
+  background-color: #ff9d9d;
+}
 
 .downloads-panel:hover{
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
