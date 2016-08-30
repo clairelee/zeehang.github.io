@@ -82,7 +82,7 @@ footer{
 .navbar.scrolled {
     background-color: #82D1D8; //IE
     background-image: url('images/StripesHeader.png');
-
+    background-repeat:no-repeat;
 
 }
 
@@ -439,4 +439,28 @@ padding-bottom: 10px;}
 #app-intro{
   padding-bottom: 20px;
   color:white;
+}
+
+.about-header
+{
+  background-image: url("images/about-header-1.jpg");
+  height: 400px;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+    background-repeat: no-repeat;
+
+
+}
+
+.img-center{
+  margin: 0 auto;
+}
+
+.profile h3{
+  font-family: "Karla";
+}
+.profile{
+  padding-bottom: 20px;
 }
