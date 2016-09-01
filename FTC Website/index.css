@@ -474,6 +474,21 @@ footer{
     width: auto;
     height: auto;
   z-index:-1;
+  transform: translateY(-50px);
+}
+
+#backup-photo{
+  position: absolute;
+  top: 0;
+  left:0;
+  min-width:100vw;
+  min-height:100vh;
+  width: auto;
+  height: auto;
+  z-index:-2;
+  background-image: url("http://static.vecteezy.com/system/resources/previews/000/101/574/original/free-tropical-island-vector.png");
+  background-size: cover;
+
 }
 
 @media (max-width: 767px) {
