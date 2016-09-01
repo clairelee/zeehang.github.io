@@ -32,30 +32,42 @@
 </head>
 <body>
 <div class="about-header">
-<div class="navbar">
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">FTC</a>
+  <div class="navbar">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+              <img alt="CKI Wordmark" src="images/CKIWordmark.png">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+             <!-- <li><a href="#about">ABOUT</a></li> -->
+             <li><a href="index.html#applications">APPLICATIONS</a></li>
+             <li><a href="index.html#faq">FAQ</a></li>
+             <li><a href="index.html#deadlines">DEADLINES</a></li>
+
+             <li id="FB-Event">
+               <p>
+                 <a href="index.#faq" id="navbar-register" class="btn btn-default navbar-btn navbar-link" role="button">FB EVENT</a>
+               </p>
+             </li>
+             <li>
+               <a href="http://www.cnhcirclek.org"><img id="header-seal" src="images/seal.png" /></a>
+             </li>
+
+
+          </ul>
+        </div>
       </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-           <li><a href="#about">ABOUT</a></li>
-           <li><a href="#applications">APPLICATIONS</a></li>
-           <li><a href="#faq">FAQ</a></li>
-           <li><a href="#schedule">SCHEDULE</a></li>
-          <a href="http://www.google.com" class="btn btn-default navbar-btn" role="button">REGISTER</a>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</div> <!-- navbar div -->
+    </nav>
+  </div> <!-- navbar div -->
 </div>
 <div class="section">
   <div id="section-header">
@@ -160,7 +172,7 @@
 </div>
 <script>
 function checkScroll(){
-  var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
+  var startY = $('.navbar').height() * 5; //The point where the navbar changes in px
 
   if($(window).scrollTop() > startY){
     $('.navbar').addClass("scrolled");
