@@ -80,9 +80,9 @@ footer{
 }
 
 .navbar.scrolled {
-    background-color: #82D1D8; //IE
-    background-image: url('images/StripesHeader.png');
-    background-repeat:no-repeat;
+    background-color: #82D1D8;
+    background-image: url("images/StripesHeader.png") !important;
+
 
 }
 
@@ -215,7 +215,11 @@ footer{
 
 .navbar-fixed-top {
     min-height: 75px;
-    background-image: url('images/StripesHeader.png');
+    /*background-image: url('images/StripesHeader.png');*/
+}
+
+.navbar-fixed-top .scrolled{
+  background-image: url('images/StripesHeader.png');
 }
 
 
@@ -462,5 +466,10 @@ padding-bottom: 10px;}
   font-family: "Karla";
 }
 .profile{
-  padding-bottom: 20px;
+
+  min-height: 400px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border: none;
 }
