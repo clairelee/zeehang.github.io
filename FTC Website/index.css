@@ -345,6 +345,7 @@ footer{
 #faq{
   background-color:#333333;
   color: white;
+
 }
 
 #faq h3{
@@ -360,7 +361,7 @@ footer{
 .section > p{
   font-size: 18px;
     line-height: 30px;
-    width: 100%;
+    width: 90%;
     max-width: 700px;
     margin: 0 auto;
 }
@@ -369,6 +370,8 @@ footer{
   background-color: white;
   color: gray;
   border-radius: 4px;
+  width:90%;
+  margin: 0 auto;
 }
 .schedule-card > h2{
   padding:20px;
