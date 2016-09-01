@@ -27,12 +27,13 @@ footer{
 
 .header
 {
-  background-image: url("http://static.vecteezy.com/system/resources/previews/000/101/574/original/free-tropical-island-vector.png");
+
+  /*background-image: url("http://static.vecteezy.com/system/resources/previews/000/101/574/original/free-tropical-island-vector.png");*/
   height: 100vh;
   width: auto;
   background-position: center;
   background-size: cover;
-
+  z-index:3;
 }
 
 .header > h1{
@@ -77,6 +78,7 @@ footer{
    -o-transition: all 0.3s ease-out;
    -ms-transition: all 0.3s ease-out;
    transition: all 0.3s ease-out;
+
 }
 
 .navbar.scrolled {
@@ -472,4 +474,16 @@ padding-bottom: 10px;}
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
   border: none;
+}
+
+#video{
+  position:absolute;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+    min-height: 100vh;
+    
+    width: auto;
+    height: auto;
+  z-index:-1;
 }
