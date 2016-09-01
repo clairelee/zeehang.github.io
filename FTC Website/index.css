@@ -145,6 +145,19 @@ footer{
 
 }
 
+#video-button{
+  background: #f08080;
+  text-shadow:none;
+  color:white;
+  width:40vw;
+  min-width: 300px;
+  max-width: 400px;
+  line-height: 50px;
+  font-size:22px;
+  font-family: "Karla";
+
+}
+
 #download-button{
   background: none;
   font-family: "Karla";
