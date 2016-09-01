@@ -548,6 +548,20 @@ padding-bottom: 10px;}
 
   .downloads-panel{
     font-size: 14px;
+
+  }
+
+  .downloads-panel.long{
+    height:75px;
+    line-height: 14px;
+    margin: auto 0;
+    display: flex;
+align-items: center; /* align vertical */
+margin-bottom: 10px;
+  }
+
+  .downloads-panel.long img{
+    align-items: right;
   }
 
   #video{
@@ -558,6 +572,6 @@ padding-bottom: 10px;}
 }
 
 footer > iframe{
-    width: 80%;
+    width: 99%;
     margin: auto;
 }
