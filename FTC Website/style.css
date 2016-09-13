@@ -1,8 +1,8 @@
 .bg
 {
-  position: absolute;
-  width: 100%;
-  z-index: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
 }
 
 body{
@@ -20,8 +20,8 @@ footer{
 }
 
 /*.header img{
-height:80%;
-background-position:top-center;
+  height:80%;
+  background-position:top-center;
 }*/
 
 
@@ -74,17 +74,17 @@ background-position:top-center;
   border:none;
   box-shadow:none;
   -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+   -moz-transition: all 0.3s ease-out;
+   -o-transition: all 0.3s ease-out;
+   -ms-transition: all 0.3s ease-out;
+   transition: all 0.3s ease-out;
 
 }
 
 .navbar.scrolled {
-  background-color: #82D1D8;
-  background-image: url("images/StripesHeader.png") !important;
-  background-repeat: no-repeat;
+    background-color: #82D1D8;
+    background-image: url("images/StripesHeader.png") !important;
+      background-repeat: no-repeat;
 
 }
 
@@ -233,23 +233,23 @@ background-position:top-center;
   border-radius:0px;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
   -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  text-align: center;
-  margin:0 auto;
+   -moz-transition: all 0.3s ease-out;
+   -o-transition: all 0.3s ease-out;
+   -ms-transition: all 0.3s ease-out;
+   transition: all 0.3s ease-out;
+   text-align: center;
+   margin:0 auto;
 }
 
 .download-card:hover{
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.5);
-  background-color:rgba(8, 193, 255, 0.55);
-  border-radius:4px;
+    background-color:rgba(8, 193, 255, 0.55);
+    border-radius:4px;
 }
 
 .navbar-fixed-top {
-  min-height: 75px;
-  /*background-image: url('images/StripesHeader.png');*/
+    min-height: 75px;
+    /*background-image: url('images/StripesHeader.png');*/
 }
 
 .navbar-fixed-top .scrolled{
@@ -261,24 +261,24 @@ background-position:top-center;
 
 .video-container {
 
-  position: relative;
-  padding-bottom: 35%;
-  padding-top: 30px; height: 0; overflow: hidden;
+    position: relative;
+    padding-bottom: 35%;
+    padding-top: 30px; height: 0; overflow: hidden;
 
 }
 
 .video-container iframe,
 .video-container object,
 .video-container embed {
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  width: 60vw;
-  min-width: 300px;
-  min-height: 200px;
-  height: 30vw;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 60vw;
+    min-width: 300px;
+    min-height: 200px;
+    height: 30vw;
 }
 #about{
   width:90%;
@@ -300,10 +300,10 @@ background-position:top-center;
   font-family: "Oswald";
   font-weight: 700;
 
-  /*background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;*/
+   /*background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;*/
 }
 
 #section-header > h2 {
@@ -327,13 +327,13 @@ background-position:top-center;
   margin: 0 auto;
   /*box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);*/
   -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  margin-bottom: 10px;
-  padding-left:10px;
-  border-radius:4px;
+   -moz-transition: all 0.3s ease-out;
+   -o-transition: all 0.3s ease-out;
+   -ms-transition: all 0.3s ease-out;
+   transition: all 0.3s ease-out;
+   margin-bottom: 10px;
+   padding-left:10px;
+   border-radius:4px;
 
 }
 
@@ -351,7 +351,7 @@ background-position:top-center;
 
 .downloads-panel:hover{
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
-  background-color:#91E0E2;
+    background-color:#91E0E2;
 }
 
 .download-body{
@@ -393,10 +393,10 @@ background-position:top-center;
 
 .section > p{
   font-size: 18px;
-  line-height: 30px;
-  width: 90%;
-  max-width: 700px;
-  margin: 0 auto;
+    line-height: 30px;
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .schedule-card{
@@ -441,6 +441,11 @@ background-position:top-center;
   height: 50%;
   display: block;
   margin: 0 auto;
+}
+
+#tiki-thursday:hover ~ .st2{
+    fill:red;
+
 }
 
 
@@ -489,7 +494,7 @@ background-position:top-center;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  background-repeat: no-repeat;
+    background-repeat: no-repeat;
 
 
 }
@@ -515,10 +520,10 @@ background-position:top-center;
   top: 0;
   left: 0;
   min-width: 100vw;
-  min-height: 100vh;
+    min-height: 100vh;
 
-  width: auto;
-  height: auto;
+    width: auto;
+    height: auto;
   z-index:-1;
   transform: translateY(-50px);
 }
@@ -538,52 +543,52 @@ background-position:top-center;
 }
 
 @media (max-width: 767px) {
-  .navbar-nav > li > a {
+    .navbar-nav > li > a {
     line-height: 20px;
     padding-top: 10px;
     padding-bottom: 10px;}
+}
+
+@media only screen and (max-width : 320px) {
+/* Styles */
+.navbar-nav > li > a {
+line-height: 20px;
+padding-top: 10px;
+padding-bottom: 10px;}
+}
+
+@media only screen and (max-width : 760px) {
+  #section-header > h2 {
+    font-size:28px;
+    line-height: 100px;
   }
 
-  @media only screen and (max-width : 320px) {
-    /* Styles */
-    .navbar-nav > li > a {
-      line-height: 20px;
-      padding-top: 10px;
-      padding-bottom: 10px;}
-    }
+  .downloads-panel{
+    font-size: 14px;
 
-    @media only screen and (max-width : 760px) {
-      #section-header > h2 {
-        font-size:28px;
-        line-height: 100px;
-      }
+  }
 
-      .downloads-panel{
-        font-size: 14px;
+  .downloads-panel.long{
+    height:75px;
+    line-height: 14px;
+    margin: auto 0;
+    display: flex;
+align-items: center; /* align vertical */
+margin-bottom: 10px;
+  }
 
-      }
+  .downloads-panel.long img{
+    align-items: right;
+  }
 
-      .downloads-panel.long{
-        height:75px;
-        line-height: 14px;
-        margin: auto 0;
-        display: flex;
-        align-items: center; /* align vertical */
-        margin-bottom: 10px;
-      }
-
-      .downloads-panel.long img{
-        align-items: right;
-      }
-
-      #video{
-        display:none;
-      }
+  #video{
+    display:none;
+  }
 
 
-    }
+}
 
-    footer > iframe{
-      width: 99%;
-      margin: auto;
-    }
+footer > iframe{
+    width: 99%;
+    margin: auto;
+}
