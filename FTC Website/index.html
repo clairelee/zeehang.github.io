@@ -13,6 +13,7 @@
 <meta property="og:image" content="http://ftc.cnhcirclek.org/images/og-image.png" />
 <meta charset="UTF-8">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/sly.js"></script>
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -110,6 +111,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     Join over 700 Cal-Nev-Ha Circle K members on a tropical adventure this November! Learn about the Circle K tenets of Service, Leadership and Fellowship, bond with your fellow members and discover more about yourself in the process. Whether you're an FTC newbie or a seasoned veteran, we promise that you'll walk away from this weekend in Sonora with something special. Click <b>below</b> to find out about the people that are making this happen.
 </p>
 <a href="about.html" id="intro-button" class="btn btn-default" id="header-button">MEET THE COMMITTEE</a>
+<div id="announcemnts">
+<div class="frame">
+    <ul class="slidee">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+        <li>Item 7</li>
+        <li>Item 8</li>
+    </ul>
+</div>
+</div>
+<div class="scrollbar">
+    <div class="handle"></div>
+</div>
+<button class="prevButton">Prev</button>
+<button class="nextButton">Next</button>
 </div>
 <div id="applications" class="section">
   <div id="section-header">
@@ -828,6 +848,26 @@ Clubs who finish the checklist will be granted one entry into a contest. Any add
       checkScroll();
     });
   }
+
+
+  var options = {
+    horizontal: 1,
+    itemNav: 'forceCentered',
+    speed: 300,
+    mouseDragging: 1,
+    touchDragging: 1,
+    nextPage: '.nextButton',
+    prevPage: '.prevButton',
+    scrollBar:'.scrollbar',
+    dragHandle: 0,
+    dynamicHandle: 1,
+    startAt: 0,
+    moveBy: 600,
+    cycleBy: 'pages',
+    cycleInterval: 3500,
+    pauseOnHover: 1
+};
+var frame = new Sly('.frame', options).init();
   </script>
 </body>
 <footer>
