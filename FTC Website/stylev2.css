@@ -7,8 +7,6 @@
 
 body{
   font-family:"Open Sans", "Verdana", sans-serif;
-
-
 }
 
 footer{
@@ -591,4 +589,8 @@ margin-bottom: 10px;
 footer > iframe{
     width: 99%;
     margin: auto;
+}
+
+hr{
+  max-width: 700px;
 }
