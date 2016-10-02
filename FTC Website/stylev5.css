@@ -148,7 +148,7 @@ footer{
 
 
 #header-button{
-  background: gray;
+  background: #f08080;
   text-shadow:none;
   color:white;
   width:40vw;
@@ -161,7 +161,7 @@ footer{
 }
 
 #video-button{
-  background: #f08080;
+  background: gray;
   text-shadow:none;
   color:white;
   width:40vw;
@@ -622,4 +622,23 @@ a.anchor {
     position: relative;
     top: -75px;
     visibility: hidden;
+}
+
+
+.reason-card{
+  width: 90%;
+max-width: 700px;
+margin: 0 auto;
+}
+
+.reason-card > img{
+  margin: auto;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+#reason{
+  font-size: 17px;
+  line-height: 23px;
 }

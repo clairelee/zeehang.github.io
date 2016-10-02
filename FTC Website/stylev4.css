@@ -148,7 +148,7 @@ footer{
 
 
 #header-button{
-  background: gray;
+  background: #f08080;
   text-shadow:none;
   color:white;
   width:40vw;
@@ -161,7 +161,7 @@ footer{
 }
 
 #video-button{
-  background: #f08080;
+  background: gray;
   text-shadow:none;
   color:white;
   width:40vw;
