@@ -497,6 +497,17 @@ footer{
 
 }
 
+.why-header{
+  background-image: url("images/why.jpg");
+  height: 400px;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
 .img-center{
   margin: 0 auto;
 }
