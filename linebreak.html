@@ -1,1 +1,54 @@
 <!DOCTYPE html>
+<head>
+  <title>
+  Linebreak 2.0</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css">
+  <script src="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js"></script>
+<script   src="http://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/linebreak.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script>
+
+</head>
+<body>
+  <div class="fixed">
+    <nav class="top-bar" data-topbar role="navigation" id="header">
+      Linebreak 2.0
+    </nav>
+  </div>
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="small-5 columns" id="breakleft">
+        <textarea id="linebreak-1" placeholder="Paste text here"></textarea>
+      </div>
+      <div class="small-2 columns" id="button">
+        <a class="button" href="#" id="linebreak-remove" data-clipboard-target="#linebreak-2">Remove empty lines and related links</a>
+        <p>
+          Click and drag bottom right corners to resize boxes.
+        </p>
+      </div>
+      <div class="small-5 columns" id="breakright">
+        <textarea id="linebreak-2" readonly placeholder="Updated text will appear here"></textarea>
+      </div>
+    </div>
+  </div>
+  <script>
+    new Clipboard('.button');
+    $('#linebreak-1').focus();
+    $('#linebreak-remove').click(function(){
+        var from = $('#linebreak-1').val()
+        var to = from.replace(/\n\n\n/g,"\n");
+        to = to.replace(/\n\n/g,"\n");
+        to = to.replace(/ *\[R[^)]*\] */g, "\n");
+        to = to.replace(/\n\n/g,"");
+        $('#linebreak-2').val(to);
+        $('#linebreak-2').select();
+    });
+</script>
+</body>
+<footer class="row">
+    <div style="text-align:center; opacity: 0.5; margin-top: 20px;" class="small-12 columns">
+        Thanks to <a href="http://blutz.github.io">Byron Lutz</a> for the original code. &copy Michael Zhang 2016.
+    </div>
+  </footer>

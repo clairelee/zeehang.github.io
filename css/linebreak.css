@@ -1,0 +1,60 @@
+body{
+
+}
+
+#header{
+  height:80px;
+  font-size: 25px;
+  line-height: 60px;
+  background-color: #1999FF;
+  color: white;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#divider{
+  height:10px;
+  background-color: blue;
+}
+
+.header-text{
+  font-size: 24px;
+}
+
+textarea{
+  height:  20rem;
+  width: 100%;
+  margin: auto;
+  font-size: 14px;
+}
+
+
+#breakarea{
+  text-align: center;
+}
+
+#breakleft{
+  text-align: right;
+}
+#breakright{
+  text-align: left;
+}
+#button{
+  text-align: center;
+
+}
+
+
+.button{
+  font-size: 16px;
+  line-height: 22px;
+
+}
+
+.fullWidth {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
