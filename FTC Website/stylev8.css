@@ -79,6 +79,14 @@ footer{
 
 }
 
+.btn{
+  -webkit-transition: all 0.3s ease-out;
+   -moz-transition: all 0.3s ease-out;
+   -o-transition: all 0.3s ease-out;
+   -ms-transition: all 0.3s ease-out;
+   transition: all 0.3s ease-out;
+}
+
 .navbar.scrolled {
     background-color: #82D1D8;
     background-image: url("images/StripesHeader.png") !important;
@@ -520,6 +528,14 @@ footer{
 
 }
 
+.contest-header{
+  background-color: blue;
+  height: 400px;
+  width: auto;
+
+
+}
+
 .img-center{
   margin: 0 auto;
 }
@@ -620,13 +636,18 @@ hr{
 
 .frame { width: 100%; height: 250px; padding: 0; margin-top: 10px;}
 .frame .slidee { margin: 0; padding: 0; height: 100%; list-style: none; }
-.frame .slidee li { float: left; margin: 0 20px 0 0; padding: 0; width: 450px; height: 100%; border-radius: 4px;}
+.frame .slidee li { float: left; margin: 0 20px 0 0; padding: 0; width: 450px; max-width: 90vw; height: 100%; border-radius: 4px;opacity: 0.3;   -webkit-transition: all 0.9s ease-out;
+   -moz-transition: all 0.9s ease-out;
+   -o-transition: all 0.9s ease-out;
+   -ms-transition: all 0.9s ease-out;
+   transition: all 0.9s ease-out;}
 
 
-.scrollbar { margin-top: 10px; width: 100%; height: 2px; background: gray; }
+.scrollbar { margin-top: 10px; width: 100%; height: 10px; background: #bcbcbc; border-radius: 4px;}
 .scrollbar .handle {
-    height: 2px;
+    height: 10px;
     background: #222;
+    border-radius: 4px;
 }
 
 .announcement-card{
@@ -635,7 +656,7 @@ hr{
 }
 
 .video-card{
-  border-top: 6px solid red;
+  border-top: 6px solid #f08080;
 }
 
 .tiki-card{
@@ -669,6 +690,7 @@ margin: 0 auto;
 }
 
 .slider-contents{
+  position: relative;
   padding: 20px;
   height: 100%;
   background-size: cover;
@@ -678,54 +700,53 @@ margin: 0 auto;
 .slider-contents > p{
   z-index:4;
 }
-#image-cover-why{
+
+.slider-contents > img{
+  width: 450px;
+}
+.image-cover{
   top: 0;
-  left: 470px;
+  left: 0px;
   position: absolute;
   width: 450px;
   height: 100%;
   z-index: -2;
-  border-radius: 4px;
-  background-image: url("images/why.jpg");
+  border-radius: 0px 0px 4px 4px;
   background-size: cover;
 }
 
-.image-cover-black{
+.image-gradient{
   top: 0;
-  left: 470px;
+  left: 0px;
   position: absolute;;
   width: 450px;
   height: 100%;
   opacity: 0.5;
   z-index: -1;
-  border-radius: 4px;
-  background-color: black
+  border-radius: 0px 0px 4px 4px;
+  background: linear-gradient(black, #82D1D8);
 }
 
+.red{
+    background: linear-gradient(black, #f08080);
+}
 .active-card{
   opacity: 1.0 !important ;
 }
-#image-cover-jong{
-  top: 0;
-  left: 940px;
-  position: absolute;
-  width: 450px;
-  height: 100%;
-  z-index: -2;
-  border-radius: 4px;
-  background-image: url("http://scontent.cdninstagram.com/t51.2885-15/s750x750/sh0.08/e35/14474094_459785947525239_7351444634343571456_n.jpg");
-  background-size: cover;
-  background-position: center;
+
+
+.nextButton{
+  margin: 0 auto;
+  background-image: none;
 }
 
-.image-cover-black-jong{
-  top: 0;
-  left: 940px;
-  position: absolute;
-  width: 450px;
-  height: 100%;
-  opacity: 0.5;
-  z-index: -1;
-  border-radius: 4px;
-  background-color: black
+.prevButton{
+  margin: 0 auto;
+    background-image: none;
+
+}
+
+.announcement-button-wrapper{
+  margin-top: 15px;
+ text-align: center;
 }
