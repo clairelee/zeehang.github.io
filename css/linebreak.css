@@ -58,3 +58,9 @@ textarea{
    margin-right: auto;
    max-width: initial;
 }
+
+#copied{
+  background-color: green;
+  color: white;
+  display:none;
+}

@@ -27,6 +27,11 @@
         <p>
           Click and drag bottom right corners to resize boxes.
         </p>
+        <div id="copied">
+          <p>
+            Text copied to clipboard.
+          </p>
+        </div>
       </div>
       <div class="small-5 columns" id="breakright">
         <textarea id="linebreak-2" readonly placeholder="Updated text will appear here"></textarea>
@@ -34,14 +39,19 @@
     </div>
   </div>
   <script>
-    new Clipboard('.button');
+    var clipboard = new Clipboard('.button');
+    clipboard.on('success', function(e) {
+document.getElementById('copied').style.display = "block";
+jQuery("div#copied").delay(1000).fadeOut("slow");
+    e.clearSelection();
+});
     $('#linebreak-1').focus();
     $('#linebreak-remove').click(function(){
         var from = $('#linebreak-1').val()
         var to = from.replace(/\n\n\n/g,"\n");
         to = to.replace(/\n\n/g,"\n");
-        to = to.replace(/ *\[R[^)]*\] */g, "\n");
-        to = to.replace(/\n\n\n/g,"");
+        to = to.replace(/ *\[R[^)]*\] */g, "");
+        to = to.replace(/\n\n/g,"\n");
         $('#linebreak-2').val(to);
         $('#linebreak-2').select();
     });
