@@ -50,6 +50,9 @@ jQuery("div#copied").delay(1000).fadeOut("slow");
     e.clearSelection();
 
 });
+clipboard.on('failure', function(e){
+  console.log("clipfail");
+});
 function WordCount(str) {
   var countint = str.split(" ").length;
   countint += str.split("/n").length;
