@@ -63,8 +63,8 @@ function WordCount(str) {
         var from = $('#linebreak-1').val()
         var to = from.replace(/\n\n\n/g,"\n");
         to = to.replace(/\n\n/g,"\n");
-        to = to.replace(/\[R.*?\]/g, "");
-        to = to.replace(/\[C.*?\]/g, "");
+        to = to.replace(/\[.*?\]/g, "");
+        to = to.replace(/\n\n\n/g,"\n");
         to = to.replace(/\n\n/g,"\n");
         $('#linebreak-2').val(to);
         $('#linebreak-2').select();
