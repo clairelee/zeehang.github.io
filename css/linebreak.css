@@ -52,6 +52,10 @@ textarea{
 
 }
 
+#checkbox{
+  line-height: 0px;
+}
+
 .fullWidth {
    width: 100%;
    margin-left: auto;
