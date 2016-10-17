@@ -20,7 +20,22 @@
   </div>
 
   <div class="container-fluid">
+    <div class="row">
+      <div class="small-12 medium-5 columns" id="breakright">
+        <h6 style="margin-right:1rem;">Don't remove content in brackets</h6>
+        <div class="switch tiny">
+    <input class="switch-input" id="tinySwitch" type="checkbox" name="brackets">
+    <label class="switch-paddle" for="tinySwitch">
+      <span class="show-for-sr">Tiny Sandwiches Enabled</span>
+    </label>
+  </div>
 
+ </div>
+   <div class="small-12 medium-7 columns">
+
+   </div>
+ </div>
+    </div>
     <div class="row">
       <div class="small-12 medium-5 columns" id="breakleft">
         <textarea id="linebreak-1" placeholder="Paste text here"></textarea>
@@ -60,10 +75,15 @@ function WordCount(str) {
 }
     $('#linebreak-1').focus();
     $('#linebreak-remove').click(function(){
-        var from = $('#linebreak-1').val()
+        var from = $('#linebreak-1').val();
+        var brackets = $('#tinySwitch').is(':checked');
         var to = from.replace(/\n\n\n/g,"\n");
         to = to.replace(/\n\n/g,"\n");
-        to = to.replace(/\[.*?\]/g, "");
+        console.log(brackets);
+        if (brackets==false)
+        {
+            to = to.replace(/\[.*?\]/g, "");
+        }
         to = to.replace(/\n\n\n/g,"\n");
         to = to.replace(/\n\n/g,"\n");
         $('#linebreak-2').val(to);
