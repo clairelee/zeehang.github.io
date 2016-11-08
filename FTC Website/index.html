@@ -14,7 +14,8 @@
 <meta charset="UTF-8">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="js/sly.js"></script>
-
+<link rel="stylesheet" href="FlipClock-master/compiled/flipclock.css" />
+<script src="FlipClock-master/compiled/flipclock.min.js"></script>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -24,7 +25,7 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="stylev8.css" />
+  <link rel="stylesheet" href="stylev9.css" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Pacifico|Karla|Oswald:400,300,700|Merienda+One|PT+Sans:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
         rel="stylesheet">
@@ -86,12 +87,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   onmouseover="this.src='FTC2016_Logo_Red.svg'"
   onmouseout="this.src='FTC2016_Logo.svg'" /></a>
 <h2> November 4 - 6, 2016 // Sonora, CA</h2>
-<div id="register-wrapper">
-<a href="forms/FTC2016_Registration_Guide.pdf" target="_blank" class="btn btn-default" id="header-button">CLUB REGISTRATION</a>
-  </div>
-  <div id="register-wrapper">
-  <a target="_blank" href="https://www.youtube.com/watch?v=nd_XW1_r9Gs&list=PLYfMJoKpmeRoJs-w_H9K96MNs83ku-Sv_" class="btn btn-default" id="video-button">THEME REVEAL</a>
-    </div>
+    <div class="your-clock"></div>
 
 
 
@@ -117,6 +113,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="frame">
     <ul class="slidee">
+      <li class="announcement-card">
+
+        <div class="slider-contents">
+
+          <h2 style="color: black;"><strong>Driving Directions now available</strong></h2>
+          <p style="color: black;">
+            Cell coverage on the drive to FTC can be spotty - download these instructions to make sure you get to Sonora safely.
+          </p>
+          <a target="_blank" href="forms/FTC2016_Driving_Directions.pdf" target="_blank" class="btn btn-default announcement-button">FIND IT HERE</a>
+
+
+          </div>
+      </li>
+      <li class="announcement-card">
+
+        <div class="slider-contents">
+
+          <h2 style="color: black;"><strong>Driver form now available!</strong></h2>
+          <p style="color: black;">
+            Is your club sending drivers to FTC? Fill out this form by November 1st!
+          </p>
+          <a href="http://www.goo.gl/A7OjND" target="_blank" class="btn btn-default announcement-button">FIND IT HERE</a>
+
+
+          </div>
+      </li>
       <li class="video-card">
 
         <div class="slider-contents">
@@ -296,7 +318,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div id="accordion" class="downloads-section">
     <div class="downloads-panel required">
       <a href="#codeofconduct" data-parent="#accordion" data-toggle="collapse">CODE OF CONDUCT</a>
-          <a href="forms/FTC2016_Code_of_Conduct.pdf"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
+          <a target="_blank" href="forms/FTC2016_Code_of_Conduct.pdf"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
     </div>
     <div id="codeofconduct" class="collapse download-body">
 
@@ -304,14 +326,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     The Board of Officers of the California-Nevada-Hawaii District of Circle K International hopes that every Circle K'er, participant, and guest will fully enjoy this Circle K event. The following Code of Conduct has been established to make this event as safe and enjoyable for all attendees and will be in effect during the entire event.
   </p>
 
-      <a href="forms/FTC2016_Code_of_Conduct.pdf" class="btn btn-default" id="download-button" role="button">DOWNLOAD .PDF</a>
+      <a target="_blank" href="forms/FTC2016_Code_of_Conduct.pdf" class="btn btn-default" id="download-button" target="_blank" role="button">DOWNLOAD .PDF</a>
       <p>
 
       </p>
     </div>
     <div class="downloads-panel required">
       <a href="#waiver" data-parent="#accordion" data-toggle="collapse">WAIVER</a>
-          <a href="forms/FTC2016_Waiver.pdf"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
+          <a target="_blank" href="forms/FTC2016_Waiver.pdf"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
     </div>
     <div id="waiver" class="collapse download-body">
 
@@ -319,7 +341,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    Waiver required for attendees of FTC
   </p>
 
-      <a href="forms/FTC2016_Waiver.pdf" class="btn btn-default" id="download-button" role="button">DOWNLOAD .PDF</a>
+      <a target="_blank" href="forms/FTC2016_Waiver.pdf" class="btn btn-default" id="download-button" target="_blank" role="button">DOWNLOAD .PDF</a>
       <p>
 
       </p>
@@ -331,7 +353,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div id="accordion" class="downloads-section">
     <div class="downloads-panel">
       <a href="#programad" data-parent="#accordion" data-toggle="collapse">PROGRAM AD FORM</a>
-          <a href="forms/FTC2016_Program_Ad_Form.docx"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
+          <a target="_blank" href="forms/FTC2016_Program_Ad_Form.docx"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
     </div>
     <div id="programad" class="collapse download-body">
 
@@ -356,7 +378,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <strong>Applications are due September 20th @ 11:59PM</strong>
       </p>
 
-      <a href="forms/FTC2016_Program_Ad_Form.docx" class="btn btn-default" id="download-button" role="button">DOWNLOAD .DOCX</a>
+      <a target="_blank" href="forms/FTC2016_Program_Ad_Form.docx" class="btn btn-default" id="download-button" target="_blank" role="button">DOWNLOAD .DOCX</a>
       <p>
 
       </p>
@@ -364,13 +386,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <a class="anchor" id="workshops-info"></a>
     <div class="downloads-panel">
       <a href="#workshop-app" data-parent="#accordion" data-toggle="collapse">WORKSHOP APPLICATION</a>
-          <a href="forms/FTC2016_Workshops_Application.docx"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
+          <a target="_blank" href="forms/FTC2016_Workshops_Application.docx"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
     </div>
     <div id="workshop-app" class="collapse download-body">
       <p>
         Need help with your workshops application? Download our guide + FAQ here!
       </p>
-      <a href="forms/FTC2016_Workshops_Guide_FAQ.pdf" class="btn btn-default" id="download-button" role="button">DOWNLOAD .PDF</a>
+      <a target="_blank" href="forms/FTC2016_Workshops_Guide_FAQ.pdf" class="btn btn-default" id="download-button" target="_blank" role="button">DOWNLOAD .PDF</a>
 
             <br />
     <p>
@@ -404,14 +426,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </li>
   </ul>
 </p>
-      <a href="forms/FTC2016_Workshops_Application.docx" class="btn btn-default" id="download-button" role="button">DOWNLOAD .DOCX</a>
+      <a target="_blank" href="forms/FTC2016_Workshops_Application.docx" class="btn btn-default" id="download-button" target="_blank" role="button">DOWNLOAD .DOCX</a>
       <p>
 
       </p>
     </div>
     <div class="downloads-panel long">
       <a href="#workshop-kiwanian-app" data-parent="#accordion" data-toggle="collapse">KIWANIAN AND ADVISORS WORKSHOP HOST APPLICATION</a>
-          <a href="forms/FTC2016_Kiwanian_and_Advisors_Workshop_Host_Application.docx"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
+          <a target="_blank" href="forms/FTC2016_Kiwanian_and_Advisors_Workshop_Host_Application.docx"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
     </div>
     <div id="workshop-kiwanian-app" class="collapse download-body">
 
@@ -447,14 +469,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </li>
   </ul>
 </p>
-      <a href="forms/FTC2016_Kiwanian_and_Advisors_Workshop_Host_Application.docx" class="btn btn-default" id="download-button" role="button">DOWNLOAD .DOCX</a>
+      <a target="_blank" href="forms/FTC2016_Kiwanian_and_Advisors_Workshop_Host_Application.docx" class="btn btn-default" id="download-button" target="_blank" role="button">DOWNLOAD .DOCX</a>
       <p>
 
       </p>
     </div>
     <div class="downloads-panel">
       <a href="#dj" data-parent="#accordion" data-toggle="collapse">DJ APPLICATION</a>
-          <a href="forms/FTC2016_DJ_Application.docx"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
+          <a target="_blank" href="forms/FTC2016_DJ_Application.docx"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
     </div>
     <div id="dj" class="collapse download-body">
       <strong>What are we looking for?</strong>
@@ -484,14 +506,14 @@ What we are looking for this year is a DJ who would love to provide a great atmo
     </li>
     </ul>
     </p>
-      <a href="forms/FTC2016_DJ_Application.docx" class="btn btn-default" id="download-button" role="button">DOWNLOAD .DOCX</a>
+      <a target="_blank" href="forms/FTC2016_DJ_Application.docx" class="btn btn-default" id="download-button" target="_blank" role="button">DOWNLOAD .DOCX</a>
       <p>
 
       </p>
     </div>
     <div class="downloads-panel">
       <a href="#team-captain" data-parent="#accordion" data-toggle="collapse">TEAM CAPTAIN APPLICATION</a>
-          <a href="forms/FTC2016_Team_Captain_Application.docx"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
+          <a target="_blank" href="forms/FTC2016_Team_Captain_Application.docx"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
     </div>
     <div id="team-captain" class="collapse download-body">
       <strong>Team Captain Duties</strong>
@@ -521,7 +543,7 @@ Team Captains should be familiarized with all the games they will be participati
     </li>
     </ul>
     </p>
-      <a href="forms/FTC2016_Team_Captain_Application.docx" class="btn btn-default" id="download-button" role="button">DOWNLOAD .DOCX</a>
+      <a target="_blank" href="forms/FTC2016_Team_Captain_Application.docx" class="btn btn-default" id="download-button" target="_blank" role="button">DOWNLOAD .DOCX</a>
       <p>
 
       </p>
@@ -529,7 +551,7 @@ Team Captains should be familiarized with all the games they will be participati
 
     <div class="downloads-panel">
       <a href="#media" data-parent="#accordion" data-toggle="collapse">MEDIA COMMITTEE</a>
-          <a href="forms/FTC2016_Media_Committee_Application.docx"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
+          <a target="_blank" href="forms/FTC2016_Media_Committee_Application.docx"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
     </div>
     <div id="media" class="collapse download-body">
 
@@ -563,7 +585,7 @@ Team Captains should be familiarized with all the games they will be participati
     </li>
     </ul>
     </p>
-      <a href="forms/FTC2016_Media_Committee_Application.docx" class="btn btn-default" id="download-button" role="button">DOWNLOAD .DOCX</a>
+      <a target="_blank" href="forms/FTC2016_Media_Committee_Application.docx" class="btn btn-default" id="download-button" target="_blank" role="button">DOWNLOAD .DOCX</a>
       <p>
 
       </p>
@@ -574,14 +596,14 @@ Team Captains should be familiarized with all the games they will be participati
 
     <div class="downloads-panel">
       <a href="#campfire" data-parent="#accordion" data-toggle="collapse">CAMPFIRE SKIT</a>
-          <a href="forms/FTC2016_Campfire_Skits_Application.docx"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
+          <a target="_blank" href="forms/FTC2016_Campfire_Skits_Application.docx"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
     </div>
     <div id="campfire" class="collapse download-body">
       <strong>Download the Campfire Skit Manual here!</strong>
       <p>
 
       </p>
-      <a href="forms/FTC2016_Campfire_Skit_Manual.pdf" class="btn btn-default" id="download-button" role="button">DOWNLOAD .PDF</a>
+      <a target="_blank" href="forms/FTC2016_Campfire_Skit_Manual.pdf" class="btn btn-default" id="download-button" target="_blank" role="button">DOWNLOAD .PDF</a>
 
     <p>
  In this packet, you will find helpful guidelines regarding your Campfire Skit and audition video, the application itself, as well as the judges' grading rubric.
@@ -602,14 +624,14 @@ Team Captains should be familiarized with all the games they will be participati
     </li>
   </ul>
     </p>
-      <a href="forms/FTC2016_Campfire_Skits_Application.docx" class="btn btn-default" id="download-button" role="button">DOWNLOAD .DOCX</a>
+      <a target="_blank" href="forms/FTC2016_Campfire_Skits_Application.docx" class="btn btn-default" id="download-button" target="_blank" role="button">DOWNLOAD .DOCX</a>
       <p>
 
       </p>
     </div>
     <div class="downloads-panel">
       <a href="#talent-app" data-parent="#accordion" data-toggle="collapse">TALENT ACTS AUDITION FORM</a>
-          <a href="forms/FTC2016_Talent_Act_Application.docx"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
+          <a target="_blank" href="forms/FTC2016_Talent_Act_Application.docx"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
     </div>
     <div id="talent-app" class="collapse download-body">
 
@@ -632,14 +654,14 @@ Team Captains should be familiarized with all the games they will be participati
     </li>
   </ul>
 </p>
-      <a href="forms/FTC2016_Team_Captain_Application.docx" class="btn btn-default" id="download-button" role="button">DOWNLOAD .DOCX</a>
+      <a target="_blank" href="forms/FTC2016_Team_Captain_Application.docx" class="btn btn-default" id="download-button" target="_blank" role="button">DOWNLOAD .DOCX</a>
       <p>
 
       </p>
     </div>
     <div class="downloads-panel long">
       <a href="#slideshow" data-parent="#accordion" data-toggle="collapse">OPENING SLIDESHOW SUBMISSION FORM</a>
-          <a href="forms/FTC2016_Slideshows_Submissions_Form.docx"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
+          <a target="_blank" href="forms/FTC2016_Slideshows_Submissions_Form.docx"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
     </div>
     <div id="slideshow" class="collapse download-body">
 
@@ -670,14 +692,14 @@ Team Captains should be familiarized with all the games they will be participati
       <strong>Form is due October 23rd @ 11:59PM</strong>
     </p>
 
-      <a href="forms/FTC2016_Slideshows_Submissions_Form.docx" class="btn btn-default" id="download-button" role="button">DOWNLOAD .DOCX</a>
+      <a target="_blank" href="forms/FTC2016_Slideshows_Submissions_Form.docx" class="btn btn-default" id="download-button" target="_blank" role="button">DOWNLOAD .DOCX</a>
       <p>
 
       </p>
     </div>
     <div class="downloads-panel">
       <a href="#publicity" data-parent="#accordion" data-toggle="collapse">CLUB PUBLICITY CHECKLIST</a>
-          <a href="forms/FTC2016_Club_Publicity_Checklist.pdf"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
+          <a target="_blank" href="forms/FTC2016_Club_Publicity_Checklist.pdf"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
     </div>
     <div id="publicity" class="collapse download-body">
       <p>
@@ -689,14 +711,14 @@ Throughout the next couple of months, try to accomplish these tasks and document
 <br />
 Clubs who finish the checklist will be granted one entry into a contest. Any additional completed BONUS check mark will grant another entry (1 per bonus check mark). The contest will be for a tropical prize for all club members and a “front- of-the-line” pass for one meal period!      </p>
   <p>
-      <a href="forms/FTC2016_Club_Publicity_Checklist.pdf" class="btn btn-default" id="download-button" role="button">DOWNLOAD .PDF</a>
+      <a target="_blank" href="forms/FTC2016_Club_Publicity_Checklist.pdf" class="btn btn-default" id="download-button" target="_blank" role="button">DOWNLOAD .PDF</a>
       <p>
 
       </p>
     </div>
     <div class="downloads-panel">
       <a href="#SAA-forms" data-parent="#accordion" data-toggle="collapse">SAA FORM</a>
-          <a href="forms/FTC2016_SAA_Volunteer_Form.docx"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
+          <a target="_blank" href="forms/FTC2016_SAA_Volunteer_Form.docx"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
     </div>
     <div id="SAA-forms" class="collapse download-body">
       <p>
@@ -726,11 +748,21 @@ Clubs who finish the checklist will be granted one entry into a contest. Any add
         Onsite (November 4th and 5th)
       </li>
     </ul>
-      <a href="forms/FTC2016_SAA_Volunteer_Form.docx" class="btn btn-default" id="download-button" role="button">DOWNLOAD .DOCX</a>
+      <a target="_blank" href="forms/FTC2016_SAA_Volunteer_Form.docx" class="btn btn-default" id="download-button" target="_blank" role="button">DOWNLOAD .DOCX</a>
       <p>
 
       </p>
     </div>
+    <div class="downloads-panel">
+      <a href="#drivers" data-parent="#accordion" data-toggle="collapse">DRIVER FORM</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc7CcmSExCXQVzwsS1g_rAO_n4x48w8C9FRRmvBWCSSq6Mvbg/viewform"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
+    </div>
+    <div id="drivers" class="collapse download-body">
+      <p>
+        Is your club sending drivers to FTC? Fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSc7CcmSExCXQVzwsS1g_rAO_n4x48w8C9FRRmvBWCSSq6Mvbg/viewform">this form</a> by November 1st!
+      </p>
+    </div>
+  </div>
   </div>
 </div>
 <div id="faq" class="section">
@@ -744,7 +776,7 @@ Clubs who finish the checklist will be granted one entry into a contest. Any add
 <div id="accordion" class="downloads-section">
   <div class="downloads-panel required">
     <a href="#codeofconduct-faq" data-parent="#accordion" data-toggle="collapse">CODE OF CONDUCT</a>
-        <a href="forms/FTC2016_Code_of_Conduct.pdf"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
+        <a target="_blank" href="forms/FTC2016_Code_of_Conduct.pdf"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
   </div>
   <div id="codeofconduct-faq" class="collapse download-body">
 
@@ -752,14 +784,14 @@ Clubs who finish the checklist will be granted one entry into a contest. Any add
   The Board of Officers of the California-Nevada-Hawaii District of Circle K International hopes that every Circle K'er, participant, and guest will fully enjoy this Circle K event. The following Code of Conduct has been established to make this event as safe and enjoyable for all attendees and will be in effect during the entire event.
 </p>
 
-    <a href="forms/FTC2016_Code_of_Conduct.pdf" class="btn btn-default" id="download-button" role="button">DOWNLOAD .PDF</a>
+    <a target="_blank" href="forms/FTC2016_Code_of_Conduct.pdf" class="btn btn-default" id="download-button" target="_blank" role="button">DOWNLOAD .PDF</a>
     <p>
 
     </p>
   </div>
   <div class="downloads-panel required">
     <a href="#waiver-faq" data-parent="#accordion" data-toggle="collapse">WAIVER</a>
-        <a href="forms/FTC2016_Waiver.pdf"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
+        <a target="_blank" href="forms/FTC2016_Waiver.pdf"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
   </div>
   <div id="waiver-faq" class="collapse download-body">
 
@@ -767,35 +799,50 @@ Clubs who finish the checklist will be granted one entry into a contest. Any add
  Waiver required for attendees of FTC
 </p>
 
-    <a href="forms/FTC2016_Waiver.pdf" class="btn btn-default" id="download-button" role="button">DOWNLOAD .PDF</a>
+    <a target="_blank" href="forms/FTC2016_Waiver.pdf" class="btn btn-default" id="download-button" target="_blank" role="button">DOWNLOAD .PDF</a>
+    <p>
+
+    </p>
+  </div>
+  <div class="downloads-panel mid">
+    <a href="#driving-directions" data-parent="#accordion" data-toggle="collapse">DRIVING DIRECTIONS</a>
+        <a target="_blank" href="forms/FTC2016_Driving_Directions.pdf"><img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
+  </div>
+  <div id="driving-directions" class="collapse download-body">
+
+  <p>
+Service is spotty on the drive up to FTC. Be sure to download these driving instructions so you can get to Sonora safely.
+</p>
+
+    <a target="_blank" href="forms/FTC2016_Driving_Directions.pdf" class="btn btn-default" id="download-button" target="_blank" role="button">DOWNLOAD .PDF</a>
     <p>
 
     </p>
   </div>
   <div class="downloads-panel">
     <a href="#registration" data-parent="#accordion" data-toggle="collapse">CLUB REGISTRATION GUIDE</a>
-        <a href="forms/FTC2016_Registration_Guide.pdf">  <img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
+        <a target="_blank" href="forms/FTC2016_Registration_Guide.pdf">  <img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
 
   </div>
   <div id="registration" class="collapse download-body">
     <p>
       Are you in charge of registering your club for FTC? This guide will walk you through the process!
       </p>
-      <a href="forms/FTC2016_Registration_Guide.pdf" class="btn btn-default" id="download-button" role="button">DOWNLOAD .PDF</a>
+      <a target="_blank" href="forms/FTC2016_Registration_Guide.pdf" class="btn btn-default" id="download-button" target="_blank" role="button">DOWNLOAD .PDF</a>
       <p>
 
       </p>
   </div>
   <div class="downloads-panel">
     <a href="#workshopsfaq" data-parent="#accordion" data-toggle="collapse">WORKSHOPS GUIDE & FAQ</a>
-        <a href="forms/FTC2016_Workshops_Guide_FAQ.pdf">  <img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
+        <a target="_blank" href="forms/FTC2016_Workshops_Guide_FAQ.pdf">  <img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
 
   </div>
   <div id="workshopsfaq" class="collapse download-body">
     <p>
       Need guidance with your workshops application? Check out this guide!
       </p>
-      <a href="forms/FTC2016_Workshops_Guide_FAQ.pdf" class="btn btn-default" id="download-button" role="button">DOWNLOAD .PDF</a>
+      <a target="_blank" href="forms/FTC2016_Workshops_Guide_FAQ.pdf" class="btn btn-default" id="download-button" target="_blank" role="button">DOWNLOAD .PDF</a>
       <p>
 
       </p>
@@ -803,33 +850,33 @@ Clubs who finish the checklist will be granted one entry into a contest. Any add
   <div class="downloads-panel">
 
     <a href="#financial" data-parent="#accordion" data-toggle="collapse">FINANCIAL ASSISTANCE GUIDE</a>
-        <a href="forms/FTC2016_Financial_Assistance_Guide.pdf">  <img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
+        <a target="_blank" href="forms/FTC2016_Financial_Assistance_Guide.pdf">  <img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
 
   </div>
   <div id="financial" class="collapse download-body">
     <p>
       Money doesn't grow on trees. As college students, sometimes we struggle to pay for things we really want. Need help paying for Fall Training Conference 2016?
     </p>
-      <a href="forms/FTC2016_Financial_Assistance_Guide.pdf" class="btn btn-default" id="download-button" role="button">DOWNLOAD .PDF</a>
+      <a target="_blank" href="forms/FTC2016_Financial_Assistance_Guide.pdf" class="btn btn-default" id="download-button" target="_blank" role="button">DOWNLOAD .PDF</a>
       <p>
 
       </p>
   </div>
   <div class="downloads-panel">
     <a href="#packing" data-parent="#accordion" data-toggle="collapse">PACKING LIST</a>
-        <a href="forms/FTC2016_Packing_List.pdf">  <img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
+        <a target="_blank" href="forms/FTC2016_Packing_List.pdf">  <img align = "right" src="images/ic_file_download_white_48px.svg" alt=DOWNLOAD_BUTTON /></a>
 
   </div>
   <div id="packing" class="collapse download-body">
     <p>
       You'll be spending three days and two nights in Sonora, at a campground that can get quite cold. Find out what you should pack to be prepared!
     </p>
-      <a href="forms/FTC2016_Packing_List.pdf" class="btn btn-default" id="download-button" role="button">DOWNLOAD .PDF</a>
+      <a target="_blank" href="forms/FTC2016_Packing_List.pdf" class="btn btn-default" id="download-button" target="_blank" role="button">DOWNLOAD .PDF</a>
       <p>
 
       </p>
   </div>
-</div>
+
 
   <div class="container-fluid">
     <div class="row">
@@ -875,6 +922,7 @@ Clubs who finish the checklist will be granted one entry into a contest. Any add
   </div>
 
   </div>
+</div>
   <div id="deadlines" class="section">
     <div id="section-header">
       <h2>DEADLINES</h2>
@@ -1055,6 +1103,15 @@ Clubs who finish the checklist will be granted one entry into a contest. Any add
     smart: 'true'
 };
 var frame = new Sly('.frame', options).init();
+var date = new Date("November 04, 2016 21:00:00"); //Month Days, Year HH:MM:SS
+        var now = new Date();
+        var diff = (date.getTime()/1000) - (now.getTime()/1000);
+
+        var clock = $('.your-clock').FlipClock(diff,{
+            clockFace: 'DailyCounter',
+            countdown: true
+        });
+
   </script>
 </body>
 <footer>
