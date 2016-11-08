@@ -75,8 +75,11 @@ footer{
   background-color: #ffc300;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
-  font-size: 16px;
   color: white;
+}
+
+#letter{
+  font-size: 16px;
 }
 
 a{
@@ -165,7 +168,7 @@ a:hover{
 .header > h2{
   color:white;
   position: relative;
-
+  font-size:24px;
   text-align:center;
   font-family: "Oswald";
 
@@ -550,7 +553,7 @@ a:hover{
   padding:20px;
   padding-top:0px;
   padding-bottom: 0px;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
 }
 

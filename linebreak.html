@@ -48,7 +48,7 @@
         <div id="copied">
           <p>
             Text copied to clipboard.
-            <img src="http://cultofthepartyparrot.com/parrots/parrot.gif" />
+            <img src="http://i.giphy.com/26gJyevfC9ypAfLaM.gif" />
           </p>
         </div>
       </div>
@@ -61,7 +61,7 @@
     var clipboard = new Clipboard('.button');
     clipboard.on('success', function(e) {
 document.getElementById('copied').style.display = "block";
-jQuery("div#copied").delay(1000).fadeOut("slow");
+jQuery("div#copied").delay(2000).fadeOut("slow");
     e.clearSelection();
 
 });
