@@ -15,7 +15,7 @@ body{
   font-family:"Open Sans", "Verdana", sans-serif;
   background-color: #95d7dd;
   background-size: cover;
-     -webkit-animation: gradshift 10s infinite alternate;
+    -webkit-animation: fadeout 2s, gradshift 10s linear 3.5s infinite alternate;
 }
 
 footer{
@@ -75,9 +75,13 @@ a:hover{
 }
 
 
+@-webkit-keyframes fadeout{
+  from {background-color: gray;}
+    to {background-color: none;}
+}
 
 @-webkit-keyframes gradshift {
-      0% {background-color: #45CEEF;}
+      0% {background-color: #95d7dd;}
      25% {background-color: #FFF5A5;}
      50% {background-color: #FFD4DA;}
      75% {background-color: #99D2E4;}
