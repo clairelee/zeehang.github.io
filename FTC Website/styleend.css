@@ -11,11 +11,50 @@
     z-index: 0;
 }
 
+.space{
+  height: 10px;
+}
+.spacemin{
+  height: 1px;
+}
+
+
+#hover-overlay{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: relative;
+  -webkit-transition: all 0.3s ease-out;
+   -moz-transition: all 0.3s ease-out;
+   -o-transition: all 0.3s ease-out;
+   -ms-transition: all 0.3s ease-out;
+   transition: all 0.3s ease-out;
+}
+
+#refer{
+  height: 25px;
+  background-color: gray;
+}
+
+#hover-overlay:hover{
+  opacity: 0.5;
+}
+
+#video-gif{
+  z-index: 2;
+}
+
+
+#image-gradient:hover{
+  opacity: 1.0;
+}
 body{
   font-family:"Open Sans", "Verdana", sans-serif;
   background-color: #95d7dd;
   background-size: cover;
     -webkit-animation: fadeout 2s, gradshift 10s linear 3.5s infinite alternate;
+
 }
 
 footer{
@@ -47,6 +86,15 @@ a{
    -o-transition: all 0.3s ease-out;
    -ms-transition: all 0.3s ease-out;
    transition: all 0.3s ease-out;
+}
+
+.dark{
+  color: black;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
 }
 
 a:hover{
@@ -789,10 +837,9 @@ margin: 0 auto;
   top: 0;
   left: 0px;
   position: absolute;;
-  width: 450px;
+  width: 100%;
   height: 100%;
   opacity: 0.5;
-  z-index: -1;
   border-radius: 0px 0px 4px 4px;
   background: linear-gradient(black, #82D1D8);
 }
