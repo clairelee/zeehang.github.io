@@ -30,7 +30,7 @@ body{
   height:80px;
   font-size: 25px;
   line-height: 60px;
-  background: linear-gradient(26deg, #ff5258, #48c5ff);
+  background: linear-gradient(26deg, #48c5ff, #560093);
   background-size: 175% 175%;
 
   -webkit-animation: Election 6s ease infinite;
@@ -79,7 +79,6 @@ textarea{
 .button{
   font-size: 16px;
   line-height: 22px;
-  background: linear-gradient(26deg, #ff5258, #48c5ff);
   background-size: 175% 175%;
 
   -webkit-animation: Election 6s 2s ease infinite;
