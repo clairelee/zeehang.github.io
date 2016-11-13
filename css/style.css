@@ -59,7 +59,7 @@ h2{
   margin-bottom: 20px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   #header{
     font-size: 60px;
     height: 400px;
