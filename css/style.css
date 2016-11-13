@@ -30,8 +30,8 @@ h2{
   font-family: "Karla", sans-serif;
   font-weight:700;
 }
-.intro-text{
-
+.intro-text > p{
+  font-size: 1.2em;
 }
 
 .body-info{
@@ -48,10 +48,11 @@ h2{
    -o-transition: all 0.3s ease;
    -ms-transition: all 0.3s ease;
    transition: all 0.3s ease;
+   font-weight: 700;
 }
 
 .intro-link:hover{
-  background-color: red;
+  background: linear-gradient(26deg, #e3ffb8, #fff6a6);
 }
 
 u{
@@ -91,7 +92,7 @@ u{
 }
 
 .header-text{
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 
