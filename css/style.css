@@ -1,5 +1,3 @@
-
-
 @-webkit-keyframes Election {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
@@ -26,12 +24,30 @@ body{
   background-color: rgb(242, 242, 242);
 }
 
+h2{
+  font-size: 2em;
+  font-family: "Karla", sans-serif;
+  font-weight:700;
+}
+.intro-text{
+  max-width: 640px;
+  margin: auto;
+  font-family: "Noto Sans";
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.intro-link{
+  text-decoration: underline;
+  text-decoration-line: 5px;
+}
+
 #header{
-  height:600px;
+  height:45vh;
   font-size: 90px;
-  line-height: 600px;
+  line-height: 45vh;
   background: linear-gradient(26deg, #48c5ff, #560093);
-  background-size: 175% 175%;
+  background-size: 200% 200%;
   font-family: "Karla";
   -webkit-animation: Election 6s ease infinite;
   -moz-animation: Election 6s ease infinite;
@@ -42,6 +58,15 @@ body{
   position: relative;
   margin-bottom: 20px;
 }
+
+@media (max-width: 650px) {
+  #header{
+    font-size: 60px;
+    height: 400px;
+    line-height: 400px;
+  }
+}
+
 
 #divider{
   height:10px;
