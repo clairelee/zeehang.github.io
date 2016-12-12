@@ -24,6 +24,20 @@
     100%{background-color:#48c5ff}
 }
 
+@keyframes offset{
+  to{
+    stroke-dashoffset: 0;
+  }
+}
+
+#Top_Box{
+  stroke-dashoffset: 1000;
+  stroke-dasharray: 1000;
+  size: 200%;
+  animation: offset 3s linear infinite alternate;
+}
+
+
 
 body{
   background-color: rgb(242, 242, 242);
@@ -126,7 +140,7 @@ u{
 }
 
 .card-text-wrapper{
-  padding: 10px;
+  padding: 15px;
 
 }
 .project-card:hover{
@@ -146,7 +160,7 @@ u{
   background: linear-gradient(26deg, #560093, #560093);
   font-family: "Karla", sans-serif;
   font-weight: 700;
-  padding: 10px;
+  padding: 15px;
   color: white;
   -webkit-transition: all 0.4s ease;
    -moz-transition: all 0.4s ease;
