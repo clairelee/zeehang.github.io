@@ -157,21 +157,27 @@ u{
 }
 
 .card-link{
-  background: #560093;
+  background: white;
   font-family: "Karla", sans-serif;
   font-weight: 700;
   padding: 15px;
-  color: white;
+  color: #560093;
 }
 
 .card-link:hover{
   background: linear-gradient(26deg, #48c5ff, #560093);
+  stroke-dashoffset: 1000;
+  stroke-dasharray: 1000;
+  size: 200%;
+  border-style: dashed;
+  border-width: 5px;
+  animation: offset 3s linear infinite alternate;
     background-size: 200% 200%;
   -webkit-animation: Election 6s ease infinite;
   -moz-animation: Election 6s ease infinite;
   -o-animation: Election 6s ease infinite;
   animation: Election 6s ease infinite;
-
+ animation: offset 5s linear forwards;
 }
 
 hr{
